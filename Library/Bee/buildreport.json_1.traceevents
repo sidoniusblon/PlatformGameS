@@ -1,0 +1,832 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684007457928717, "dur": 2918545, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007457929922, "dur": 34521, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007457964579, "dur": 82752, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007458047354, "dur": 427531, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007458474887, "dur": 2362512, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007460837418, "dur": 9843, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007469090149, "dur": 211123, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007469090369, "dur": 8132, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007469098503, "dur": 190161, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007469288665, "dur": 12606, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007639667588, "dur": 100809, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007639667604, "dur": 21000, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007639688605, "dur": 69456, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007639758063, "dur": 10334, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007647720509, "dur": 168408, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007647720537, "dur": 10348, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007647730888, "dur": 156310, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007647887200, "dur": 1717, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007684832940, "dur": 122244, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007684832957, "dur": 20450, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007684853409, "dur": 91739, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007684945150, "dur": 10034, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007693001058, "dur": 124049, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007693001067, "dur": 13314, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007693014385, "dur": 108286, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007693122672, "dur": 2433, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007693125484, "dur": 36, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684007693049252, "dur":862, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693050121, "dur":196, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684007693050352, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684007693050378, "dur":384, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684007693050812, "dur":680, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693051492, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095257, "dur":103, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095360, "dur":96, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095457, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095461, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095473, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095474, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095481, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095483, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095490, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095491, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095497, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095498, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095504, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095505, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095512, "dur":14, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095526, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095532, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095533, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095539, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095540, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095546, "dur":44, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095590, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095597, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095599, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095606, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095614, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693095649, "dur":1826, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684007693050775, "dur":721, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693051498, "dur":5316, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693056828, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684007693056829, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693056879, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684007693056880, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693056929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693057679, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684007693060622, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684007693060661, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693060706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693061271, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684007693062269, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1684007693062306, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693062338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693062857, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1684007693067746, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693067782, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693067890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693067896, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693069465, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693069497, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693069601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693069607, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693071400, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693071432, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693071703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693071710, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693073780, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693073798, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693074051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693074058, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693076012, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693076044, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693076076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693076084, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693077395, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693077474, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693077705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693077724, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693079259, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693079293, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693079427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693079433, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693080764, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693080795, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693080913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693080919, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693082447, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693082477, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693082516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693082522, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693083860, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693083966, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693084030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693084036, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007693085049, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684007693085086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693085091, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684007693086756, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684007693086812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693086817, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684007693088720, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684007693088755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693088760, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684007693090182, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1684007693090222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007693090226, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1684007693091557, "dur":3688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693051935, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693051936, "dur":4888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693056829, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684007693056907, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693057109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693060146, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684007693061370, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007693061409, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693061435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693061440, "dur":18242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007693079717, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007693079747, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693079790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693079796, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007693081546, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007693081577, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693081650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693081656, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007693083456, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007693083489, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693083713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693083720, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007693086151, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1684007693086398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693086404, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1684007693088312, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1684007693088348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693088353, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1684007693090520, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1684007693090556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007693090562, "dur":4646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1684007693095230, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1684007693095231, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693050999, "dur":552, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693051551, "dur":5268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693056829, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1684007693056903, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693057105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693059792, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1684007693060935, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1684007693060968, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693060995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693061001, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1684007693062422, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693062452, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693062690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693062952, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693064310, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693064345, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693064498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693064566, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693065811, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693065849, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693066062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693066069, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693067052, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693067086, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693067136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693067143, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693068857, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693068884, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693068911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693068916, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693070086, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693070116, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693070234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693070242, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693071846, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693071878, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693071973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693071978, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693074969, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693074990, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693075023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693075029, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693076790, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693076939, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693077070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693077077, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693078673, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693078761, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693078826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693078833, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693080543, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693080662, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693080709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693080729, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693082124, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693082176, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693082296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693082302, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693083857, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693083887, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693083934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693083940, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007693085731, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684007693085764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693085770, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684007693087405, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684007693087435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693087441, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1684007693089088, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1684007693089124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693089129, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1684007693090307, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1684007693090341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007693090347, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1684007693091605, "dur":3639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693051104, "dur":469, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693051573, "dur":5253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693056827, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1684007693056882, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693056985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693058329, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1684007693060675, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1684007693060730, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693060761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693060909, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1684007693062331, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693062370, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693062628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693062955, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693064262, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693064295, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693064470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693064476, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693065892, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693065927, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693066094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693066100, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693067527, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693067551, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693067619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693067624, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693069007, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693069044, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693069170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693069176, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693070685, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693070768, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693070816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693070823, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693072449, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693072481, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693072777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693072784, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693076559, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693076895, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693076929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693076935, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693078540, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693078627, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693078745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693078751, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693080302, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693080401, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693080435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693080441, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693081811, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693081837, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693081901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693081906, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693083210, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693083245, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693083329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693083341, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007693086100, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684007693086132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693086142, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684007693087654, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1684007693087688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693087709, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1684007693089344, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1684007693089374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693089378, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1684007693090357, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1684007693090420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007693090426, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1684007693091564, "dur":3692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693051231, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693051621, "dur":5218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693056840, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684007693056883, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693056986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693058470, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684007693060750, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684007693060785, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693060841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693061358, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684007693062734, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693062767, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693062812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693063004, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693064620, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693064654, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693064717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693064723, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693066637, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693066673, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693066701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693066707, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693068068, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693068096, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693068245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693068251, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693069789, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693069821, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693069981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693069987, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693071403, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693071429, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693071681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693071709, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693074519, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693074539, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693074689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693074695, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693076568, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693076752, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693076835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693076842, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693078382, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693078476, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693078504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693078510, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693080088, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693080236, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693080510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693080516, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693082066, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693082098, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693082155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693082160, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693083639, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693083667, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693083716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693083723, "dur":4284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007693088065, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1684007693088108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007693088114, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1684007693091505, "dur":3743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693051291, "dur":378, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693051669, "dur":5153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693056828, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1684007693056948, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693057136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693060904, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1684007693061896, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1684007693061931, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693061957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693061962, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1684007693063974, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693064013, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693064060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693064067, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693065754, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693065788, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693066139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693066145, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693067670, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693067708, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693067738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693067745, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693069227, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693069257, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693069299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693069305, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693071432, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693071465, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693071676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693071683, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693074866, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693074903, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693075026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693075032, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693077080, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693077215, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693077266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693077272, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693078786, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693078816, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693078926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693078931, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693080374, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693080491, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693080612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693080618, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693082042, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693082073, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693082157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693082163, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693083634, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693083666, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693083717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693083723, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007693085023, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684007693085073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693085079, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684007693086600, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1684007693086635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693086656, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1684007693088520, "dur":4035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1684007693092555, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693092590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007693092597, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1684007693093518, "dur":1732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693051345, "dur":495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693051840, "dur":4983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693056828, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1684007693056887, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693056988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693058803, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1684007693060792, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684007693060827, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693060868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693061354, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684007693062751, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693062782, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693062824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693063009, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693064610, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693064644, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693064724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693064730, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693066489, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693066519, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693066582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693066589, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693068170, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693068200, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693068247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693068253, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693069744, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693069777, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693069808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693069814, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693071504, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693071538, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693071679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693071703, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693073418, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693073441, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693073498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693073504, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693075976, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693076389, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693076510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693076517, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693078495, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693078597, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693078637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693078644, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693080305, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693080413, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693080441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693080447, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693081888, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693081933, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693082071, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693082077, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693083364, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693083421, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693083490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693083512, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007693084878, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":7, "ts":1684007693084913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693084917, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":7, "ts":1684007693086447, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1684007693086481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693086487, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1684007693088766, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level9" }}
+,{ "pid":12345, "tid":7, "ts":1684007693088801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693088807, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level9" }}
+,{ "pid":12345, "tid":7, "ts":1684007693090130, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1684007693090169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693090174, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1684007693091361, "dur":1901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1684007693093263, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693093300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007693093306, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1684007693094071, "dur":1186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693051454, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693051845, "dur":4980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693056829, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684007693056883, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693056947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693058156, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684007693060963, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693061002, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693061033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693061234, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693063193, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693063347, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693063445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693063801, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693065213, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693065249, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693065596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693065604, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693066829, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693066860, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693067050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693067056, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693068611, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693068637, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693068742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693068767, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693070055, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693070091, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693070234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693070240, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693071819, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693071849, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693071878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693071883, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693074844, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693074875, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693074905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693074911, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693076824, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693076911, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693076942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693076995, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693078615, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693079125, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693079220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693079226, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693080863, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693080900, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693081019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693081024, "dur":3186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693084241, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693084453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693085058, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007693086589, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1684007693086622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693086628, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1684007693088505, "dur":5598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1684007693094103, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693094150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007693094176, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1684007693094994, "dur":268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693051564, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693051564, "dur":5257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693056828, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1684007693056882, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693056989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693059190, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1684007693060823, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1684007693060860, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693060886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693060892, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1684007693062010, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan.exe" }}
+,{ "pid":12345, "tid":9, "ts":1684007693062148, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693062265, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693062271, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan.exe" }}
+,{ "pid":12345, "tid":9, "ts":1684007693064040, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693064074, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693064103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693064109, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693065939, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693065972, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693066208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693066215, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693067808, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693067835, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693067883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693067889, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693069228, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693069258, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693069287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693069293, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693070658, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693070765, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693070816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693070824, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693072212, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693072234, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693072315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693072322, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693075184, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693075223, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693075255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693075261, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693077143, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693077285, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693077351, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693077358, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693079382, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693079408, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693079436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693079442, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693081165, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693081198, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693081271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693081277, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693082774, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693082810, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693082870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693082876, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007693085963, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684007693085997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693086002, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684007693087471, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1684007693087505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693087510, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1684007693090114, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level5" }}
+,{ "pid":12345, "tid":9, "ts":1684007693090203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693090209, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level5" }}
+,{ "pid":12345, "tid":9, "ts":1684007693091349, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1684007693091383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007693091388, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1684007693092295, "dur":2968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693051665, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693051666, "dur":5171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693056837, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1684007693056905, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693057065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693059303, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1684007693060783, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1684007693060822, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693060931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693061355, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1684007693062629, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693062670, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693062831, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693063021, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693064520, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693064554, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693064583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693064589, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693066217, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693066250, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693066296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693066322, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693068286, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693068316, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693068400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693068407, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693069775, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693069809, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693069883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693069889, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693071111, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693071141, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693071224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693071230, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693072816, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693072840, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693072883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693072889, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693075310, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693075422, "dur":434, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693075862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693075868, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693077117, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693077279, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693077355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693077362, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693078992, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693079271, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693079439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693079445, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693081040, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693081074, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693081123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693081129, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693082571, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693082603, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693082715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693082721, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007693086382, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1684007693086410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693086415, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1684007693088486, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1684007693088523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693088528, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1684007693090269, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level10" }}
+,{ "pid":12345, "tid":10, "ts":1684007693090315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007693090336, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level10" }}
+,{ "pid":12345, "tid":10, "ts":1684007693091905, "dur":3341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693051801, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693051802, "dur":5025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693056828, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1684007693056878, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693056918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693058022, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1684007693061038, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693061319, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693061528, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693061654, "dur":9821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693071511, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693071542, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693071678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693071685, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693074207, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693074240, "dur":463, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693074709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693074715, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693076550, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693076849, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693076883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693076889, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693078448, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693078528, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693078554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693078559, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693079997, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693080104, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693080265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693080273, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693081575, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693081604, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693081652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693081658, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693083034, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693083058, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693083185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693083191, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007693084657, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1684007693084760, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693084803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693085373, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1684007693086561, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1684007693086593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693086598, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1684007693088742, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1684007693088776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693088782, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1684007693090556, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1684007693090583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007693090588, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1684007693092000, "dur":3252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693050899, "dur":631, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693051530, "dur":5296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693056829, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684007693056960, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693057167, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693060996, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684007693062330, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693062372, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693062692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693062970, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693064508, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693064540, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693064569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693064575, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693066441, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693066767, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693066886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693066892, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693068646, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693068678, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693068735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693068741, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693070499, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693070533, "dur":441, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693070980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693070987, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693072916, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693072949, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693073265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693073271, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693075401, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693075860, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693075973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693075980, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693078088, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693078187, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693078223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693078230, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693079390, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693079420, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693079448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693079454, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693081430, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693081459, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693081534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693081540, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693083327, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693083365, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693083402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693083409, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007693084808, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1684007693084850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693085179, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1684007693087328, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":12, "ts":1684007693087364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693087370, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":12, "ts":1684007693088978, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level8" }}
+,{ "pid":12345, "tid":12, "ts":1684007693089013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693089018, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level8" }}
+,{ "pid":12345, "tid":12, "ts":1684007693090182, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1684007693090217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007693090223, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/PlatformGame/PlatformGame_Serkan_Data/level3" }}
+,{ "pid":12345, "tid":12, "ts":1684007693091554, "dur":3694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007693098610, "dur":2486, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684007693126109, "dur": 2316, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684007693125476, "dur": 3022, "ph": "X", "name": "Write chrome-trace events", "args": {} },
